@@ -16,7 +16,7 @@ namespace ConsoleApp6
         shopping.Add("Pomme de terre");
         shopping.Add("Tomate");
         for (int i = 0; i < shopping.Count; i++)
-        Console.WriteLine(shopping[i]);
+        Console.WriteLine(shopping[i]); // commentaire sur plusieurs lignes /* au début et à la fin /*
         }
     }
 }
